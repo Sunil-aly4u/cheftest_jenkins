@@ -6,6 +6,7 @@ code <<-EOH
 EOH
 end
 service "tomcat" do
+action:stop  
 action:start
 end
 
